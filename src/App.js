@@ -1,5 +1,7 @@
 import "./App.css";
-
+import "./products";
+// import images from "./images.jpg";
+// import images2 from "./images2.jpg";
 function App() {
   return (
     <div className="App">
