@@ -5,3 +5,9 @@
 .Bakery-Image {
   min-width: 100%;
 }
+.Product-Image {
+  width: 50%;
+}
+.product-Menu {
+  display: flex;
+}
