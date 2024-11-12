@@ -1,5 +1,5 @@
 import "./App.css";
-
+import ProductItem from "./Components/ProductItem";
 function App() {
   const products = [
     {
@@ -23,13 +23,7 @@ function App() {
   ];
 
   const productMenu = products.map((product, index) => {
-    return (
-      <div key={index}>
-        <img className="Product-Image" src={product.Image}></img>
-        <p>{product.name} </p>
-        <p>{product.price} </p>
-      </div>
-    );
+    return <ProductItem />;
   });
 
   return (
