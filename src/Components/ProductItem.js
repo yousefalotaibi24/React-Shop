@@ -1,14 +1,11 @@
 import React from "react";
 
-const ProductItem = () => {
+const ProductItem = (props) => {
   return (
     <div>
-      <img
-        className="Product-Image"
-        src="https://schoolnightvegan.com/wp-content/uploads/2022/11/vegan-apple-pie-featured-1-2.jpg"
-      ></img>
-      <h1>Apple Pie</h1>
-      <p>5KD </p>
+      <img className="Product-Image" src={props.myproduct.Image}></img>
+      <p>{props.myproduct.name} </p>
+      <p>{props.myproduct.price} </p>
     </div>
   );
 };
